@@ -21,7 +21,11 @@
 				"esbenp.prettier-vscode",
 				"vscode-icons-team.vscode-icons",
 				"wayou.vscode-todo-highlight"
-			]
+			],
+			"settings": {
+				"editor.wordWrap": "on"
+			}
+			
 		}
 		
 	 }

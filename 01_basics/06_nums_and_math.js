@@ -32,3 +32,5 @@ const min = 10
 const max = 20 
 
 console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+// math always gives values from 0-1, by using floor we can round that value to numerical instead of decimal 
+// to avoid the number from being 0, we are using the +1 at the end.
